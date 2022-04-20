@@ -1,0 +1,33 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Parameter  Practice">
+    <test name="Parameter Test">
+
+        <parameter name="FirstName" value="Ahmet"></parameter>
+        <parameter name="City" value="Bishkek"></parameter>
+        <parameter name="State" value="California"></parameter>
+        <classes>
+            <class name="TESTNG.ParameterAnnotation"></class>
+        </classes>
+
+    </test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
